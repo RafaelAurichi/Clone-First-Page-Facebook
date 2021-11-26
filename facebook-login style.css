@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', "Sans serif";
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+.center {
+    max-width: 1280px;
+    width: 70%;
+    display: inline-block;
+}
+
+
+header {
+    width: 100%;
+    background-color: #3b5898;
+    text-align: center;
+}
+
+header .center h1 {
+    float: left;
+    color: white;
+    position: relative;
+    bottom: -27px;
+    font-size: 45px;
+    font-family: 'Roboto';
+    font-weight:600;
+    letter-spacing: -1px;
+}
+
+.login {
+    float: right;
+    width: 20%;
+    text-align: left;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.login span, .login a {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+.login span {
+    margin-left: 5px;
+}
+
+.login input[type="text"], .login input[type="password"] {
+    margin-top: 1px;
+    width: 150px;
+    margin-right: 10px;
+    height: 15px;
+    padding: 0px 2px;
+    outline: none;
+    border-radius: 5%;
+    border: none;
+}
+
+.login p {
+    color: white;
+    font-size: 13px;
+}
+
+.login input[type="submit"] {
+    background-color: #537acc;
+    padding: 2px 7px;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1.5px solid black;
+    border-right: 1.5px solid black;
+}
+
+.login input[type="submit"]:active {
+    border-top:1.5px solid black;
+    border-left: 1.5px solid black;
+    border-bottom: none;
+    border-right: none;
+}
+
+main {
+    height: 540px;
+    text-align: center;
+    background: linear-gradient(white, #d6dae9)
+}
+
+
+.texto {
+    float: left;
+    width: 50%;
+    margin: 40px 0px;
+}
+
+.texto img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.texto p { 
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-top: 4px;
+    color:#3b5898
+}
+
+.cadastro {
+    float:right;
+    width: 45%;
+    text-align: left;
+}
+
+#titulo {
+    color: rgb(54, 54, 54);
+    font-size: 35px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#subtitulo {
+    font-size: 17px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+table {
+    margin-top: 20px;
+}
+
+.nome {
+    width: 150%;
+    height: 50px;
+}
+
+.nome input[type="text"]{
+    width: 208px;
+    margin-right: 7px;
+    height: 40px;
+    border-radius: 05px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: rgb(85, 85, 85);
+    border: 1px solid #cecfd4;
+}
+
+.contato input[type="text"], .senha input[type="text"] {
+    width: 198%;
+    height: 40px;
+    border-radius: 05px;
+    margin-bottom: 14px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(85, 85, 85);
+    border: 1px solid #cecfd4;
+}
+
+.cadastro table p {
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+#dia {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%;
+    appearance: none;
+    font-weight: bold;
+    color:rgb(85, 85, 85);
+    border-radius: 15%;
+    padding-left: 5px;
+    height: 30px;
+    font-size: 15px;
+    border: 2px solid #cecfd4;
+    background-image: url(seta.png);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position-x: 40px;
+    background-position-y: center;
+}
+
+#mes {
+    width: 40%;
+    padding-left: 5px;
+    appearance: none;
+    font-weight: bold;
+    color:rgb(85, 85, 85);
+    border-radius: 15%;
+    height: 30px;
+    font-size: 15px;
+    border: 2px solid #cecfd4;
+    background-image: url(seta.png);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position-x: 55px;
+    background-position-y: center;
+}
+
+#ano {
+    width: 35%;
+    padding-left: 5px;
+    appearance: none;
+    font-weight: bold;
+    color:rgb(85, 85, 85);
+    border-radius: 15%;
+    height: 30px;
+    font-size: 15px;
+    border: 2px solid #cecfd4;
+    background-image: url(seta.png);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-position-y: center;
+}
+
+.nascimento a {
+    font-size: 10px;
+    float: right;
+    margin-right: 65px;
+}
+
+.nascimento select:active {
+    background-color: #cecfd4;
+}
+
+.genero {
+    margin-top: 15px;
+}
+
+.genero input {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.genero p {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 25px;
+    position: relative;
+    top: 3px;
+}
+
+.lorem-ipsum {
+    width: 90%;
+    margin-top: 10px;
+}
+
+.lorem-ipsum span {
+    font-size: 12px;
+}
+
+.lorem-ipsum a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botao {
+    margin-top: 20px;
+}
+
+.botao input {
+    width: 220px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(#5e9f4e,#75be62);
+    border-radius: 10px;
+    color: white;
+}
+
+footer {
+    text-align: center;
+}
+
+
+.linha1 td {
+    padding-right: 50px;
+    padding-left: 55px;
+    padding-bottom: 5px;
+}
+
+.linha1 td a {
+    color: #3a3a3a;
+    text-decoration: none;
+}
+
+.border {
+    border-bottom: 1px solid #dddddd; 
+}
+
+.linha2 td {
+    padding-left: 27.4px;
+    color: #616161;
+    padding-bottom: 5px;
+}
+
+.linha2 td a {
+    color: #3a3a3a;
+    text-decoration: none;
+}
+
+.linha2 #idioma {
+    padding-left: 55px; !important
+}
+
+.padding-bottom td {
+    padding-bottom: 10px;
+}
